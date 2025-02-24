@@ -1,0 +1,174 @@
+/* Register page css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #505b70;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+.title {
+  color: beige;
+  margin-bottom: 20px;
+}
+
+.register_form input, .register_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.register_form input {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.register_button {
+  background: #051324;
+  color: beige;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register_button:hover {
+  background: #051324c5;
+}
+
+.login {
+  display: block;
+  margin-top: 10px;
+  color: beige;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social-register {
+  margin-top: 15px;
+  color: beige;
+}
+
+.social-register a {
+  margin: 0 10px;
+  color: beige;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #383e44;
+}
+
+/* Login page css */
+
+.container_login {
+  text-align: center;
+  background-color: #505b70;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+.titel_login {
+  color: beige;
+  margin-bottom: 20px;
+}
+
+.container_login input, .login_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.container_login input {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.login_button {
+  background: #051324;
+  color: beige;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login_button:hover {
+  background: #051324c5;
+}
+
+.forget_password {
+  display: block;
+  text-decoration: none;
+  color: beige;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.social_login {
+  display: block;
+  color: beige;
+}
+
+.social_login a {
+  color: beige;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+/* Forget Password css */
+
+.container_forget_password {
+  text-align: center;
+  background-color: #505b70;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+.container_forget_password input, .forget_password_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.container_forget_password label {
+  color: beige;
+  display: block;
+}
+
+.forget_password_button {
+  background: #051324;
+  color: beige;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.forget_password_button:hover {
+  background: #051324c5;
+}
